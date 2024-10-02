@@ -15,3 +15,7 @@ Inicjowanie repozytorium / bazy danych. Utworzony zostanie plik **.git**. [Inicj
 ```git
 git init
 ```
+
+Wewnątrz katalogu **.git** znajduje się plik **HEAD**. Wskazuje gałąź, na której aktualnie pracuje użytkownik.
+
+![git catalog](./img/git-catalog.png)
