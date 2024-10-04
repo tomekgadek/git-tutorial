@@ -38,8 +38,8 @@ Sprawdza stan plików.
 git status
 ```
 
-Polecenie [git status](./git/git-status.sh) śledzi tylko pliki dodane do przechowalni - edytowane pliki, które 
-nie mają być uwzględniane w migawce.
+Polecenie [git status](./git/git-status.sh) śledzi tylko pliki dodane do przechowalni (czyli edytowane pliki, które 
+nie mają być uwzględniane w migawce).
 
 > Git przechowuje dane w nietypowy sposób, traktując je jak 
 serię migawek (_ang. snapshots_) wszystkich plików, które są 
