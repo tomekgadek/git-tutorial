@@ -29,3 +29,20 @@ Wewnątrz katalogu **.git** znajduje się plik **HEAD**. Wskazuje gałąź, na k
 ```git
 git clone
 ```
+
+---
+
+Sprawdza stan plików.
+
+```
+git status
+```
+
+Polecenie [git status](./git/git-status.sh) śledzi tylko pliki dodane do przechowalni - edytowane pliki, które 
+nie mają być uwzględniane w migawce.
+
+> Git przechowuje dane w nietypowy sposób, traktując je jak 
+serię migawek (_ang. snapshots_) wszystkich plików, które są 
+dodane do poczekalni (_ang. staging area_). Za każdym razem, gdy 
+tworzysz **commit**, Git tworzy obraz przedstawiający aktualny stan 
+wszystkich plików i zapisuje referencję do tej migawki.
