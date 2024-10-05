@@ -34,7 +34,7 @@ git clone
 
 Sprawdza stan plików.
 
-```
+```git
 git status
 ```
 
@@ -46,3 +46,11 @@ serię migawek (_ang. snapshots_) wszystkich plików, które są
 dodane do poczekalni (_ang. staging area_). Za każdym razem, gdy 
 tworzysz **commit**, Git tworzy obraz przedstawiający aktualny stan 
 wszystkich plików i zapisuje referencję do tej migawki.
+
+---
+
+[Umieszcza plik w przechowalni / poczekalni](./git/git-add.sh) (_ang. staging area_).
+
+```
+git add README.md
+```
