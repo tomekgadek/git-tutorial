@@ -51,6 +51,19 @@ wszystkich plików i zapisuje referencję do tej migawki.
 
 [Umieszcza plik w przechowalni / poczekalni](./git/git-add.sh) (_ang. staging area_).
 
-```
+```git
 git add README.md
 ```
+
+---
+
+Usuwanie pliku z przechowalni.
+
+```git
+git rm --cached README.md
+```
+
+> Usuwa plik z przechowalni (ang. _staging area_), ale nie usuwa go z lokalnego systemu plików.
+Oznacza to, że plik przestaje być śledzony przez Git (usunięty z poczekalni), ale fizycznie
+nadal istnieje w katalogu roboczym. Po tej operacji zmiany w pliku nie zostaną uwzględnione w
+kolejnych commitach, a plik pozostanie na dysku.
