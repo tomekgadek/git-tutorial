@@ -67,3 +67,11 @@ git rm --cached README.md
 Oznacza to, że plik przestaje być śledzony przez Git (usunięty z poczekalni), ale fizycznie
 nadal istnieje w katalogu roboczym. Po tej operacji zmiany w pliku nie zostaną uwzględnione w
 kolejnych commitach, a plik pozostanie na dysku.
+
+---
+
+Tworzenie [migawki](./git/git-commit.sh) aktualnego stanu projektu.
+
+```git
+git commit
+```
