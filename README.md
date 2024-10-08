@@ -75,3 +75,15 @@ Tworzenie [migawki](./git/git-commit.sh) aktualnego stanu projektu.
 ```git
 git commit
 ```
+
+---
+
+Służy do ignorowania plików.
+```
+.gitignore
+```
+
+> Plik **.gitignore** służy do określenia plików i katalogów, które 
+mają być ignorowane przez system kontroli wersji Git. Oznacza to, że 
+pliki wymienione w **.gitignore** nie zostaną dodane do przechowalni 
+(ang. _staging area_) i nie będą śledzone ani zapisywane w repozytorium.
