@@ -87,3 +87,11 @@ Służy do ignorowania plików.
 mają być ignorowane przez system kontroli wersji Git. Oznacza to, że 
 pliki wymienione w **.gitignore** nie zostaną dodane do przechowalni 
 (ang. _staging area_) i nie będą śledzone ani zapisywane w repozytorium.
+
+---
+
+[Rejestr commitów](./git/git-log.sh). Przedstawia listę wszystkich migawek zatwierdzonych przez użytkownika.
+
+```
+git log
+```
