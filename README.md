@@ -79,7 +79,7 @@ git commit
 ---
 
 Służy do ignorowania plików.
-```
+```git
 .gitignore
 ```
 
@@ -92,6 +92,13 @@ pliki wymienione w **.gitignore** nie zostaną dodane do przechowalni
 
 [Rejestr commitów](./git/git-log.sh). Przedstawia listę wszystkich migawek zatwierdzonych przez użytkownika.
 
-```
+```git
 git log
+```
+
+---
+
+Zapoznanie się ze zmianami wprowadzonymi do projektu. [Szczegóły konkretnego commita](./git/git-show.sh).
+```
+git show 9f180aa
 ```
