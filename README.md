@@ -91,7 +91,6 @@ pliki wymienione w **.gitignore** nie zostaną dodane do przechowalni
 ---
 
 [Rejestr commitów](./git/git-log.sh). Przedstawia listę wszystkich migawek zatwierdzonych przez użytkownika.
-
 ```git
 git log
 ```
@@ -99,6 +98,14 @@ git log
 ---
 
 Zapoznanie się ze zmianami wprowadzonymi do projektu. [Szczegóły konkretnego commita](./git/git-show.sh).
-```
+```git
 git show 9f180aa
+```
+
+---
+
+Sprawdza, czy plik w aktualnym stanie różni się od ostatniego commita. 
+[Porównuje zmiany](./git/git-diff.sh) z katalogiem roboczym.
+```git
+git diff TODO.txt
 ```
