@@ -109,3 +109,10 @@ Sprawdza, czy plik w aktualnym stanie różni się od ostatniego commita.
 ```git
 git diff TODO.txt
 ```
+
+---
+
+[Sprawdza zmiany](./git/git-diff-staged.sh) wprowadzone do plików znajdujących się w przechowalni.
+```git
+git diff --staged
+```
