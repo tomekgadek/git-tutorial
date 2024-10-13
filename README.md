@@ -116,3 +116,13 @@ git diff TODO.txt
 ```git
 git diff --staged
 ```
+
+---
+
+[Poruszanie / przemieszczanie się po wersjach](./git/git-checkout.sh). Powrót do swojej wersji: `git checkout master`.
+```git
+git checkout 9f180aa
+```
+
+---
+
