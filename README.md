@@ -126,3 +126,10 @@ git checkout 9f180aa
 
 ---
 
+[Cofanie commita](./git/git-revert.sh).
+```
+git revert 5f57824
+git revert [nazwa commita]
+```
+
+---
