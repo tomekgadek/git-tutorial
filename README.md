@@ -127,9 +127,14 @@ git checkout 9f180aa
 ---
 
 [Cofanie commita](./git/git-revert.sh).
-```
+```git
 git revert 5f57824
 git revert [nazwa commita]
 ```
 
 ---
+
+[Lista migawek w jednej linii](./git/git-log-oneline.sh).
+```git
+git log --oneline
+```
