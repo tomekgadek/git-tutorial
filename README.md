@@ -138,3 +138,12 @@ git revert [nazwa commita]
 ```git
 git log --oneline
 ```
+
+---
+
+[Edytowanie commita](./git/git-commit-amend.sh) (pojawi się edytor). To nie jest do końca **edycja**. Tak 
+naprawdę jest to tworzenie nowego commita i zastępowanie. Bardziej trafna nazwa 
+tej operacji to **poprawianie**.
+```git
+git commit --amend
+```
