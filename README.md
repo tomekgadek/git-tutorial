@@ -147,3 +147,10 @@ tej operacji to **poprawianie**.
 ```git
 git commit --amend
 ```
+
+---
+
+[Wycofywanie pliku](./git/git-reset.sh) **README.md** z przechowalni.
+```git
+git reset HEAD README.md
+```
