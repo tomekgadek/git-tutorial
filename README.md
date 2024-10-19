@@ -154,3 +154,10 @@ git commit --amend
 ```git
 git reset HEAD README.md
 ```
+
+---
+
+[Usuwanie poprzedniego commita](./git/git-reset-soft.sh) (~1 - to poprzedni commit).
+```git
+git reset --soft HEAD~1
+```
