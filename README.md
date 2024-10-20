@@ -161,3 +161,13 @@ git reset HEAD README.md
 ```git
 git reset --soft HEAD~1
 ```
+
+---
+
+[Dodanie odnośnika do nowo utworzonego repozytorium](./git/git-remote.sh):
+* **git remote** to zdalne repozytorium,
+* **origin** to umowna nazwa. Można ją zmienić. Zaleca się **origin**.
+
+```git
+git remote add origin https://...
+```
