@@ -181,3 +181,11 @@ git remote add origin https://...
 ```git
 git push origin master
 ```
+
+---
+
+[Ustawienia parametrów](./git/git-config.sh) Git'a.
+```git
+git config --local user.name "John Doe"
+git config --global user.name "John Doe"
+```
