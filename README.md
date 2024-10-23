@@ -189,3 +189,10 @@ git push origin master
 git config --local user.name "John Doe"
 git config --global user.name "John Doe"
 ```
+
+---
+
+Aby połączyć zgłoszenia z commitami można umiescić w stopce: **#nazwa(numer)-zgloszenia**. Commit może składać się z:
++ Tytułu,
++ Rozwinięcia,
++ Stopki.
