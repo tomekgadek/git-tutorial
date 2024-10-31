@@ -196,3 +196,10 @@ Aby połączyć zgłoszenia z commitami można umiescić w stopce: **#nazwa(nume
 + Tytułu,
 + Rozwinięcia,
 + Stopki.
+
+---
+
+[Tworzenie gałęzi](./git/git-branch.sh).
+```
+git branch <nazwa>
+```
