@@ -210,3 +210,10 @@ git branch <nazwa>
 ```
 git branch develop
 ```
+
+---
+
+[Lista gałęzi](./git/git-branch-local.sh).
+```
+git branch
+```
