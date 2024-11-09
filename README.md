@@ -200,20 +200,26 @@ Aby połączyć zgłoszenia z commitami można umiescić w stopce: **#nazwa(nume
 ---
 
 [Tworzenie gałęzi](./git/git-branch.sh).
-```
+```git
 git branch <nazwa>
 ```
 
 ---
 
 [Tworzy odwołanie do ostatniego **commita**](./git/git-branch-last.sh) bieżącej gałęzi.
-```
+```git
 git branch develop
 ```
 
 ---
 
 [Lista gałęzi](./git/git-branch-local.sh).
-```
+```git
 git branch
+```
+
+[Przełącz na gałąź](./git/git-checkout-branch.sh) **develop**.
+```git
+git checkout <nazwa>
+git checkout develop
 ```
