@@ -223,3 +223,10 @@ git branch
 git checkout <nazwa>
 git checkout develop
 ```
+
+---
+
+[Tworzenie gałęzi](./git/git-checkout-branch-b.sh).
+```git
+git branch testing + git checkout testing = git checkout -b testing
+```
