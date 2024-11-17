@@ -230,3 +230,10 @@ git checkout develop
 ```git
 git branch testing + git checkout testing = git checkout -b testing
 ```
+
+---
+
+[Usuwanie gałęzi](./git/git-branch-d.sh) (usuń gałąź testową).
+```git
+git branch -d testing
+```
