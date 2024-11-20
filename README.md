@@ -237,3 +237,9 @@ git branch testing + git checkout testing = git checkout -b testing
 ```git
 git branch -d testing
 ```
+
+[Odtwarzanie **commitów**](./git/git-merge.sh) z **testing** na **develop**.
+```git
+git checkout develop
+git merge testing
+```
