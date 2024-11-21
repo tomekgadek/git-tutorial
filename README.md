@@ -243,3 +243,9 @@ git branch -d testing
 git checkout develop
 git merge testing
 ```
+
+[Wypychanie zmian](./git/git-push-origin.sh) na zdalne repozytorium.
+```git
+git push <nazwa repozytorium> <nazwa gałęzi>
+git push origin develop
+```
