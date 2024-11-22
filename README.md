@@ -238,14 +238,27 @@ git branch testing + git checkout testing = git checkout -b testing
 git branch -d testing
 ```
 
+---
+
 [Odtwarzanie **commitów**](./git/git-merge.sh) z **testing** na **develop**.
 ```git
 git checkout develop
 git merge testing
 ```
 
+---
+
 [Wypychanie zmian](./git/git-push-origin.sh) na zdalne repozytorium.
 ```git
 git push <nazwa repozytorium> <nazwa gałęzi>
 git push origin develop
 ```
+
+---
+
+[Pobieranie zmian](./git/git-pull.sh) ze zdalnego repozytorium.
+```git
+git pull origin master
+```
+
+---
