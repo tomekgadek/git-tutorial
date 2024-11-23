@@ -262,3 +262,10 @@ git pull origin master
 ```
 
 ---
+
+Jak rozpoznać, które gałęzie są zdalne, a które lokalne?
+
+Gałęzie lokalne - kolor zielony (git branch)
+Gałęzie zdalne - kolor czerwony (git branch -r)
+
+---
