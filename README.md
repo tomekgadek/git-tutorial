@@ -269,3 +269,9 @@ Gałęzie lokalne - kolor zielony (git branch)
 Gałęzie zdalne - kolor czerwony (git branch -r)
 
 ---
+
+Co się dzieje w przypadku wystąpienia konfliktu?
+
+Gdy wystąpi konflikt jesteśmy w zawieszonym stanie, tzw. **FETCH_HEAD**.
+
+---
