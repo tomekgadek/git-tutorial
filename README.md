@@ -275,3 +275,10 @@ Co się dzieje w przypadku wystąpienia konfliktu?
 Gdy wystąpi konflikt jesteśmy w zawieszonym stanie, tzw. **FETCH_HEAD**.
 
 ---
+
+[Przerwanie operacji scalania](./git/git-merge-abort.sh) typu **fast-forward**. Wszystko zostanie przywrócone sprzed operacji scalania.
+```
+git merge --abort
+```
+
+---
