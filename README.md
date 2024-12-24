@@ -282,3 +282,10 @@ git merge --abort
 ```
 
 ---
+
+[Wycofywanie zmian z pliku](./git/git-checkout-file.sh), gdy zmiany nie znajdują się jeszcze w poczekalni.
+```
+git checkout README.md
+```
+
+---
