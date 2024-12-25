@@ -289,3 +289,10 @@ git checkout README.md
 ```
 
 ---
+
+Składowanie naszych zmian ([na stosie](./git/git-stash.sh)).
+```
+git stash push
+```
+
+---
