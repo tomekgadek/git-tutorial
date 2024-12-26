@@ -277,22 +277,27 @@ Gdy wystąpi konflikt jesteśmy w zawieszonym stanie, tzw. **FETCH_HEAD**.
 ---
 
 [Przerwanie operacji scalania](./git/git-merge-abort.sh) typu **fast-forward**. Wszystko zostanie przywrócone sprzed operacji scalania.
-```
+```git
 git merge --abort
 ```
 
 ---
 
 [Wycofywanie zmian z pliku](./git/git-checkout-file.sh), gdy zmiany nie znajdują się jeszcze w poczekalni.
-```
+```git
 git checkout README.md
 ```
 
 ---
 
 Składowanie naszych zmian ([na stosie](./git/git-stash.sh)).
-```
+```git
 git stash push
 ```
 
 ---
+
+[Historia zmian](./git/git-stash-list.sh) na stosie.
+```git
+git stash list
+```
