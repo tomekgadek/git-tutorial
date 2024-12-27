@@ -301,3 +301,10 @@ git stash push
 ```git
 git stash list
 ```
+
+---
+
+[Pokaże zmienione pliki z samego wierzchołka](./git/git-stash-show.sh) składu.
+```git
+git stash show
+```
