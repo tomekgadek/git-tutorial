@@ -308,3 +308,12 @@ git stash list
 ```git
 git stash show
 ```
+
+---
+
+[Pobranie aktualnych zmian](./git/git-stash-pop.sh) ze stosu.
+```
+git stash pop
+```
+
+---
