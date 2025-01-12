@@ -317,3 +317,10 @@ git stash pop
 ```
 
 ---
+
+[Przywrócenie stanu projektu](./git/git-reset-hard.sh) do takiego jaki panuje na gałęzi zdalnej.
+```
+git reset --hard origin / [hash]
+```
+
+---
