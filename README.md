@@ -312,15 +312,22 @@ git stash show
 ---
 
 [Pobranie aktualnych zmian](./git/git-stash-pop.sh) ze stosu.
-```
+```git
 git stash pop
 ```
 
 ---
 
 [Przywrócenie stanu projektu](./git/git-reset-hard.sh) do takiego jaki panuje na gałęzi zdalnej.
-```
+```git
 git reset --hard origin / [hash]
+```
+
+---
+
+Uzyskiwanie [informacji o zdalnych repozytoriach](./git/git-remote-v.sh).
+```git
+git remote -v
 ```
 
 ---
