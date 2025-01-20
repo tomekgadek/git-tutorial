@@ -331,3 +331,10 @@ git remote -v
 ```
 
 ---
+
+[Cofanie ostatniego commita](./git/git-reset-head.sh).
+```git
+git reset HEAD~ --soft
+```
+
+---
