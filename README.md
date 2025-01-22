@@ -338,3 +338,8 @@ git reset HEAD~ --soft
 ```
 
 ---
+
+[Przebazowywanie kodu](./git/git-rebase.sh). Gonię zmiany z **mastera**. Charakterystyka liniowa.
+```git
+git rebase master
+```
