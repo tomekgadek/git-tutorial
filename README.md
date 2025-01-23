@@ -343,3 +343,13 @@ git reset HEAD~ --soft
 ```git
 git rebase master
 ```
+
+---
+
+[Konflikt](./git/git-rebase-conflict.sh) podczas przebazowywania.
+```git
+git add "skonfliktowany plik"
+git rebase --continue
+```
+
+---
