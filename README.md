@@ -353,3 +353,10 @@ git rebase --continue
 ```
 
 ---
+
+Jak nie daję sobie rady z **rebase** to wykonujemy [abort](./git/git-rebase-abort.sh).
+```git
+git rebase --abort
+```
+
+---
