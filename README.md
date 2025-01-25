@@ -360,3 +360,7 @@ git rebase --abort
 ```
 
 ---
+
+**Gitflow** to obieg pracy w Gicie.
+
+---
